@@ -1,0 +1,204 @@
+body{
+    background-color: rgb(0, 114, 182);
+    margin: 0%;
+}
+
+#header{
+    display: flex;
+    width: 100%;
+    height: 200px;
+   background-image: url(playera1.jpg);
+ background-repeat: no-repeat;
+}
+
+#play{
+    font-family: 'Indie Flower', cursive;
+    color: rgb(218, 32, 190);
+    font-weight: bold;
+    font-size: 80px;
+    text-shadow: 3px 3px 3px #000000;
+    position: absolute;
+    left: 50px;
+    top: -60px;
+}
+
+#era{
+    font-family: 'Indie Flower', cursive;
+    color: rgb(3, 155, 3);
+    font-weight: bold;
+    font-size: 80px;
+    text-shadow: 3px 3px 3px #000000;
+    position: absolute;
+    left: 190px;
+    top: -60px;
+}
+
+/*Estilos de los botones*/
+
+.button {
+    background-color: #ffffff;
+    border: 0px;
+    outline: 0px;
+    color: #fff;
+    width: 200px;
+    height: 30px;
+    padding: 20px;
+    margin: 60px;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0px 1px 17px 3px #000000;;
+  }
+  
+  .liquid {
+    background-color: #2893eb;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-shadow: inset 5px -5px 25px #104e81,
+    inset -5px 0px 25px #104e81;
+  }
+  
+  .liquid::after {
+    content: '';
+    width: 450px;
+    height: 400px;
+    background: rgb(230, 242, 249);
+    z-index: 1;
+    position: absolute;
+    left: -110px;
+    top: -380px;
+    border-radius: 45%;
+    animation: animate 5s linear 2s infinite;
+  }
+  
+  .liquid::before {
+    content: '';
+    width: 450px;
+    height: 400px;
+    background-color: rgb(68, 160, 235);
+    z-index: 1;
+    position: absolute;
+    left: -110px;
+    top: -380px;
+    border-radius: 40%;
+    animation: animate 5s linear 1.8s infinite;
+  }
+  
+  .btn-txt {
+    position: relative;
+    top: -10px;
+    z-index: 1;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  @keyframes animate {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+#botones{
+    position: absolute;
+    top: 10px;
+    left: 400px;
+}  
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    height: 1000px;
+    width: 1000px;
+    position:absolute;
+    top: 300px;
+    left: 400px;
+    line-height: 50px;
+   
+}
+
+/*Formulario de contacto*/
+
+h3{
+  background-color: white;
+  width: 500px;
+  text-align: center; 
+  margin: 15px;
+  }
+
+p{font-weight: bold;font-style: italic; font-size: 18px;
+margin-top: 30px;}
+
+label{
+  font-weight: bold;
+}
+.dato{
+  margin: 15px;
+  text-align: center;
+}
+form{
+  background-color: rgb(248, 213, 119);
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  width: 530px;
+  height: 400px;
+  padding: 20px;
+  position: absolute;
+  top: 800px;
+  left: 600px;
+  font-family: sans-serif;
+  
+}
+#foto{
+  margin-left: 15px;
+}
+#submit{
+      margin: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  
+}
+
+button:hover{
+  transform: scale(1.15);
+ background-color:  rgb(3, 155, 3);
+ }
+
+ button{
+  width: 70px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  font-family: sans-serif;
+ }
+
+input[type="submit"]{
+  height: 35px;
+  width: 70px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px black;
+  font-family: sans-serif;
+}

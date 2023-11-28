@@ -1,0 +1,271 @@
+body{
+    background-color: rgb(0, 114, 182);
+    margin: 0%;
+}
+
+
+
+#header{
+    display: flex;
+    width: 100%;
+    height: 200px;
+   background-image: url(playera1.jpg);
+ background-repeat: no-repeat;
+
+
+ 
+    
+}
+
+#play{
+    font-family: 'Indie Flower', cursive;
+    color: rgb(218, 32, 190);
+    font-weight: bold;
+    font-size: 80px;
+    text-shadow: 3px 3px 3px #000000;
+    position: absolute;
+    left: 50px;
+    top: -60px;
+}
+
+#era{
+    font-family: 'Indie Flower', cursive;
+    color: rgb(3, 155, 3);
+    font-weight: bold;
+    font-size: 80px;
+    text-shadow: 3px 3px 3px #000000;
+    position: absolute;
+    left: 190px;
+    top: -60px;
+}
+
+.juegos{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 5%;
+    box-shadow: 0px 1px 17px 3px #000000;
+    
+}
+.juegos:hover{
+    transition: ease;
+    opacity: 0.80;
+
+}
+
+#juegos{
+    position: relative;
+    left: 200px;
+    top: -30px;
+}
+
+/*Estilos de los botones*/
+
+.button {
+    background-color: #ffffff;
+    border: 0px;
+    outline: 0px;
+    color: #fff;
+    width: 200px;
+    height: 30px;
+    padding: 20px;
+    margin: 60px;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0px 1px 17px 3px #000000;;
+  }
+  
+  .liquid {
+    background-color: #2893eb;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-shadow: inset 5px -5px 25px #104e81,
+    inset -5px 0px 25px #104e81;
+  }
+  
+  .liquid::after {
+    content: '';
+    width: 450px;
+    height: 400px;
+    background: rgb(230, 242, 249);
+    z-index: 1;
+    position: absolute;
+    left: -110px;
+    top: -380px;
+    border-radius: 45%;
+    animation: animate 5s linear 2s infinite;
+  }
+  
+  .liquid::before {
+    content: '';
+    width: 450px;
+    height: 400px;
+    background-color: rgb(68, 160, 235);
+    z-index: 1;
+    position: absolute;
+    left: -110px;
+    top: -380px;
+    border-radius: 40%;
+    animation: animate 5s linear 1.8s infinite;
+  }
+  
+  .btn-txt {
+    position: relative;
+    top: -10px;
+    z-index: 1;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  @keyframes animate {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+#botones{
+    position: absolute;
+    top: 10px;
+    left: 400px;
+}  
+
+/*Nombre de los juegos*/
+
+#p1 {
+    visibility: hidden;
+    position: absolute;
+    left: 100px;
+    top: 80px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px #000000;
+  }
+   
+  a:hover #p1 {
+    visibility: visible;
+  }
+
+  #p2 {
+    visibility: hidden;
+    position: absolute;
+    left: 475px;
+    top: 80px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px #000000;
+  }
+   
+  a:hover #p2 {
+    visibility: visible;
+  }
+
+  #p3 {
+    visibility: hidden;
+    position: absolute;
+    left: 780px;
+    top: 80px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px #000000;
+  }
+   
+  a:hover #p3 {
+    visibility: visible;
+  }
+
+  #p4 {
+    visibility: hidden;
+    position: absolute;
+    left: 1180px;
+    top: 80px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px #000000;
+  }
+   
+  a:hover #p4 {
+    visibility: visible;
+  }
+
+  #p5 {
+    visibility: hidden;
+    position: absolute;
+    left: 100px;
+    top: 450px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px #000000;
+  }
+   
+  a:hover #p5 {
+    visibility: visible;
+  }
+
+  #p6 {
+    visibility: hidden;
+    position: absolute;
+    left: 470px;
+    top: 450px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px #000000;
+  }
+   
+  a:hover #p6 {
+    visibility: visible;
+  }
+
+  #p7 {
+    visibility: hidden;
+    position: absolute;
+    left: 845px;
+    top: 450px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px #000000;
+  }
+   
+  a:hover #p7 {
+    visibility: visible;
+  }
+
+  #p8 {
+    visibility: hidden;
+    position: absolute;
+    left: 1200px;
+    top: 450px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px #000000;
+  }
+   
+  a:hover #p8 {
+    visibility: visible;
+  }
